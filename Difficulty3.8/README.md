@@ -1,4 +1,4 @@
-# 난이도 3.6 문제
+# 난이도 3.8 문제
 * 그림</br>
 ![](https://github.com/Lee-KyungSeok/ControlFlowExample/blob/master/Difficulty3.8/difficulty_3.8.PNG)
 
@@ -10,8 +10,7 @@
 4. 값 표시 ("line번호*2+1" 개)
 5. 라인수가 입력값보다 크거나 같은 경우 6~7 번 실행
 6. 시작할 때 공백 ("line번호-입력값+1" 개)
-7. 값 표시 ("4*입력값-2*line번호-3" 개)
- - 개수 : 2(line번호)+(-3-4(line번호-입력값))
+7. 값 표시 ("4*입력값-2*line번호-3" 개)</br>- 개수 : 2(line번호)+(-3-4(line번호-입력값))
 
 #### __소스 코드__
 ``` java
