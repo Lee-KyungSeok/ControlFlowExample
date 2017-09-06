@@ -1,4 +1,12 @@
-
+/**
+ * 
+ * Controlflow 난이도5.7 예제 풀이
+ * mark값과 받을 입력값 lines 입력
+ * 
+ * @author Kyung
+ * 
+ *
+ */
 public class Test057 {
 	
 	public void run(String mark, int lines) {
