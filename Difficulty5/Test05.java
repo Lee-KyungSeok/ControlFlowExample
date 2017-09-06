@@ -1,11 +1,17 @@
 
+/**
+ * 
+ * @author Kyung
+ * Controlflow 난이도5 예제 풀이
+ *
+ */
 public class Test05 {
 	
 	public void run(String mark, int lines) {
 		
 		for(int lineIndex =0 ; lineIndex<lines*2-1 ; lineIndex=lineIndex+1) {
 			
-			//위의 빈 트리 작성
+			//라인수가 입력값보다 작은 경우 실행
 			if(lineIndex<lines) {
 				
 				//처음 공백 출력
@@ -29,7 +35,7 @@ public class Test05 {
 				}
 			}
 			
-			//아래 빈 트리 작성
+			//라인수가 입력값보다 크거나 같은 경우 실행
 			else {
 				
 				//처음 공백 출력
