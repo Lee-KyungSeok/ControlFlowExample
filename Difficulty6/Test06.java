@@ -1,17 +1,21 @@
 
 //값은 입력값만큼
-//그 사이 공백은 입력값-1 부터 감소
-//처음 공백은 0,  8*0+6 ,7*1+5, 6*2+4 
-//21,21-1,21-3,21-6,21-10,21-15,21-21
-//21 20 18 15 11 6 0
-//0, 6, 6+5, 6+5+4...
+//처음 공백은 0, 6, 6+5, 6+5+4...
 
+/**
+ * 
+ * Controlflow 난이도6 예제 풀이
+ * mark값과 받을 입력값 lines 입력
+ * 
+ * @author Kyung
+ * 
+ *
+ */
 public class Test06 {
 	
 	public void run(String mark, int lines) {
 		
-		//값+공백이 한세트
-		
+		// 라인수만큼 반복
 		for(int lineIndex=0; lineIndex<lines ; lineIndex=lineIndex+1) {
 			
 			//처음 공백 출력
@@ -23,6 +27,7 @@ public class Test06 {
 				}
 			}
 			
+			//(mark+공백)을 한세트로 출력
 			for(int setIndex=0;setIndex<lines-lineIndex; setIndex=setIndex+1) {
 				
 				//mark하고
